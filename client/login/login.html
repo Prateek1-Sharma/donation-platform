@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <form  id="loginForm" onsubmit="login(event)">
+
+  <input type="radio" id="organization" name="role" value="organization">
+  <label for="organization">Organization</label><br>
+  <input type="radio" id="user" name="role" value="user">
+  <label for="user">User</label><br>
+
+    <label for="loginName">Username:</label>
+    <input type="email" name="loginEmail">
+    <label for="loginPassword"></label>
+    <input type="password" name="loginPassword">
+    <button type="submit">Login</button>
+    </form>
+    <a href="../opening.html">REGISTER NOW IF YOU ARE A NEW USER</a>   
+
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"></script>
+<script src="login.js"></script>
+</html>
